@@ -1,0 +1,43 @@
+{
+    "name": "bootstrap-modal-strict-close",
+    "version": "0.1.0",
+    "title": "Bootstrap Modal Strict Close Extension",
+    "description": "An extension of the Bootstrap Modal script to prevent accidentally closing the modal when, for example, filling in a form.",
+    "keywords": [
+        "jquery",
+        "bootstrap",
+        "javascript",
+        "modal",
+        "close",
+        "form",
+        "twitter",
+        "plugin",
+        "addon",
+        "extension"
+    ],
+    "homepage": "https://github.com/cabaret/bootstrap-modal-strict-close",
+    "author": {
+        "name": "Joris Ooms",
+        "url": "https://twitter.com/ontolecabaret"
+    },
+    "maintainers": [
+        {
+            "name": "Joris Ooms",
+            "url": "https://twitter.com/ontolecabaret"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/cabaret/bootstrap-modal-strict-close.git"
+    },
+    "bugs": "https://github.com/cabaret/bootstrap-modal-strict-close/issues",
+    "licenses": [
+        {
+            "type": "Apache2",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "main": [
+        "bootstrap-modal-strict-close.js"
+    ]
+}
