@@ -23,7 +23,7 @@ This repository includes styles and scripts from the Twitter Bootstrap project, 
 Contribute
 ----------
 
-Feel free to submit pull requests, advice or suggestions. [@ontolecabaret]](https://twitter.com/ontolecabaret)
+Feel free to submit pull requests, advice or suggestions. [@ontolecabaret](https://twitter.com/ontolecabaret)
 
 Copyright and license
 ---------------------
