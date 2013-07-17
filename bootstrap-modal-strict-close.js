@@ -12,7 +12,6 @@ Modal.prototype = $.extend({}, _super.Constructor.prototype, {
         _super.Constructor.prototype[args.shift()].apply(this, args);
     },
     hide: function(e) {
-        console.log(this.options);
         if(this.options.strictClose) {
             if($(e.target).data('dismiss') === 'modal') {
                 this._super('hide');
