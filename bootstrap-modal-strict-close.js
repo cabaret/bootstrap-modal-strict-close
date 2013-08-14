@@ -13,7 +13,8 @@ Modal.prototype = $.extend({}, _super.Constructor.prototype, {
     },
     hide: function(e) {
         if(this.options.strictClose) {
-            if($(e.target).data('dismiss') === 'modal') {
+            if(typeof e !== "undefined" && $(e.target).data('dismiss') === 'modal') {
+                e.preventDefault();
                 this._super('hide');
             }
         } else {
